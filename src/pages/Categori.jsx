@@ -2,6 +2,14 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import {Navbar, Image} from 'react-bootstrap'
 
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+// import img from '../assets/img'
+import Image5 from "../assets/img/image 5.png";
+import Image10 from "../assets/img/image 10.png";
+
+
 export default class Categori extends Component {
     render() {
         return (
@@ -18,9 +26,9 @@ export default class Categori extends Component {
                     </div>
 
                     <div className="text-center">
-                    <a Link to ="index.html">
+                    <link Link to ="index.html">
                         <Image src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png" className="rounded" alt="..." width="55px" height="55px" />
-                    </a>
+                    </link>
                     </div>
 
                     <Link to="index.html" className="btn" style={{marginTop: 5, marginRight: 30, backgroundColor: 'white', color: '#1f81DF', border: '1px solid #1f81DF', borderRadius: 20, width: '10%', height: '5%'}}>Sign In</Link>
@@ -38,20 +46,14 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={ Image5} />
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
-                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
             </div>
           </div>
         </div>
@@ -65,16 +67,10 @@ export default class Categori extends Component {
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
-                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                <span className="fa fa-star checked" style={{color: '#FFB800'}} />
-                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-                <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
             </div>
           </div>
         </div>
@@ -84,20 +80,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={ Image5} />
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -107,20 +103,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={Image5} />
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -130,20 +126,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={Image5}/>
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -155,20 +151,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={Image5} />
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -178,20 +174,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={Image10} />
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -201,20 +197,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src= {Image5} />
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -224,20 +220,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={ Image5} />
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -247,20 +243,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={Image10} />
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -272,20 +268,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={Image10}/>
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -295,20 +291,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={Image5}/>
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -318,20 +314,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={Image5} />
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -341,20 +337,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={Image5} />
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>
@@ -364,20 +360,20 @@ export default class Categori extends Component {
       <div className="card" style={{}}>
         <div className="row no-gutters">
           <div className="col-md-3 ">
-            <Image src="Image/image 5.png" />
+            <Image src={Image10} />
           </div>
           <div className="col">
             <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-              <a className="ml-5">Jak Of</a><br />
-              <a className="ml-5">The bushveld</a><br />
+              <link className="ml-5">Jak Of</link><br />
+              <link className="ml-5">The bushveld</link><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <a className="ml-5">
+              <link className="ml-5">
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFB800'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
                 <span className="fa fa-star checked" style={{color: '#FFDB7E'}} />
-              </a>
+              </link>
             </div>
           </div>
         </div>

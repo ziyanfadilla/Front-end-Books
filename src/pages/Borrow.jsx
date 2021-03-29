@@ -2,6 +2,25 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import {Navbar , Image} from 'react-bootstrap'
 
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+// import img from '../assets/img'
+import Image3 from "../assets/img/image 3.png";
+import Image5 from "../assets/img/image 5.png";
+import Image10 from "../assets/img/image 10.png";
+import Image11 from "../assets/img/image 11.png";
+
+//Kategori
+import TechIcon from "../assets/img/kteknologi.png";
+import HistoryIcon from "../assets/img/khistory.png";
+import PoliticsIcon from "../assets/img/kpolitic.png";
+import RomanceIcon from "../assets/img/kromance.png";
+import ScienceIcon from "../assets/img/ksciense.png";
+import SportIcon from "../assets/img/ksport.png";
+
+
 export default class Borrow extends Component {
     render() {
         return (
@@ -17,14 +36,14 @@ export default class Borrow extends Component {
                     </div>
 
                     <div className="text-center">
-                    <a Link to ="index.html">
+                    <Link to ="index.html">
                         <Image src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png" className="rounded" alt="..." width="55px" height="55px" />
-                    </a>
+                    </Link>
                     </div>
 
-                    <a Link to="profile.html">
+                    <Link to="profile.html">
                     <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png"alt className="avatar" style={{verticalAlign: 'middle', width: 50, height: 50, borderRadius: 50}} />
-                    </a>
+                    </Link>
                 </div>
                 </Navbar>
 
@@ -57,7 +76,7 @@ export default class Borrow extends Component {
       </tr>
       <tr>
         <td>
-          <a href="diskusi.html" type="submit" style={{height: 40, width: 150, borderRadius: 30, color: 'white'}} className="btn btn-primary">Borrow</a>
+          <Link to="/diskusi" type="submit" style={{height: 40, width: 150, borderRadius: 30, color: 'white'}} className="btn btn-primary">Borrow</Link>
         </td>
         <td>
           <a type="submit" style={{height: 40, width: 150, borderRadius: 30, border: '1px solid #5FA0DE'}} className="btn">Chat</a>

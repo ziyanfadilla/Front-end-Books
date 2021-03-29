@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
 import { Image } from 'react-bootstrap'
+import {Link} from 'react-router-dom'
+
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 export default class SignIn extends Component {
     render() {
@@ -13,7 +19,7 @@ export default class SignIn extends Component {
                   <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616622142/logoPLUGIN_qsovpm_jmo8rn.png" alt width="50px" height="40px" />
                   <h1 style={{color: 'white'}}>Hallo, Pluginers</h1>
                   <p style={{color: 'white', fontSize: 15, textAlign: 'center'}}>Enter your personal details <br /> and starts journey with us</p>
-                  <a href="signup.html" className="btn w-50" style={{border: '1px solid white', borderRadius: 20, height: 40, color: 'white', bottom: '50%'}}>Sign Up</a>
+                  <Link to="/signup" className="btn w-50" style={{border: '1px solid white', borderRadius: 20, height: 40, color: 'white', bottom: '50%'}}>Sign Up</Link>
                 </div>
               </div>
 
@@ -28,7 +34,7 @@ export default class SignIn extends Component {
                       <input type="password" className="form-control" placeholder="Password" style={{border: '1px solid color = #5FA0DE', borderRadius: 30, height: 50, paddingLeft: 55, marginTop: '5vh'}} />
                       <i className="fa fa-eye-slash" aria-hidden="true" />
                     </div>
-                    <a href="home.html" className="btn" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 30, width: 300, height: 40, marginTop: '5vh', marginLeft: '20vh'}}>Sign In</a>
+                    <Link to="/home" className="btn" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 30, width: 300, height: 40, marginTop: '5vh', marginLeft: '20vh'}}>Sign In</Link>
                   </div>
                 </div>
               </div>

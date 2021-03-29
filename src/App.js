@@ -1,6 +1,3 @@
-// import logo from './logo.svg';
-// import './App.css';
-
 import { BrowserRouter , Route } from 'react-router-dom';
 import Home from '../src/pages/Home'
 import Signin from '../src/pages/SignIn'
@@ -15,12 +12,15 @@ import Deskusi from '../src/pages/Diskusi'
 import outofdate from '../src/pages/outofdate'
 import profile from '../src/pages/Profile'
 import Search from '../src/pages/Search'
+import Uploadbooks from '../src/pages/Uploadbooks'
+import waiting from '../src/pages/waiting'
+import waitingborrow from '../src/pages/waitingborrow'
 
 
 function App() {
   return (
     <BrowserRouter>
-    <Route path = '/home' component = {Home}/>
+    <Route exact path = '/' component = {Home}/>
     <Route path = '/signin' component = {Signin}/>
     <Route path = '/signup' component = {Signup}/>
     <Route path = '/books' component = {Books}/>
@@ -33,9 +33,9 @@ function App() {
     <Route path = '/outofdate' component = {outofdate}/>
     <Route path = '/profile' component = {profile}/>
     <Route path = '/search' component = {Search}/>
-    
-
-    
+    <Route path = '/uploadbooks' component = {Uploadbooks}/>
+    <Route path = '/waiting' component = {waiting}/>
+    <Route path = '/waitingborrow' component = {waitingborrow}/>
     </BrowserRouter>
 
   );

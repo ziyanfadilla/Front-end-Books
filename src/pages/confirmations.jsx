@@ -2,6 +2,12 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
 import {Navbar,Image} from 'react-bootstrap'
 
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
+
+
 export default class confirmations extends Component {
     render() {
         return (
@@ -16,14 +22,14 @@ export default class confirmations extends Component {
                     </div>
 
                     <div className="text-center">
-                    <a Link to ="index.html">
+                    <Link to ="index.html">
                         <Image src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png" className="rounded" alt="..." width="55px" height="55px" />
-                    </a>
+                    </Link>
                     </div>
 
-                    <a Link to="profile.html">
+                    <Link to="profile.html">
                     <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png"alt className="avatar" style={{verticalAlign: 'middle', width: 50, height: 50, borderRadius: 50}} />
-                    </a>
+                    </Link>
                 </div>
                 </Navbar>
                 
@@ -31,7 +37,7 @@ export default class confirmations extends Component {
   <div className="card mt-5">
     <div className="row no-gutters">
       <div className="col-md-4">
-        <img src="img/image 12.png" style={{width: '100%', height: 'auto', objectFit: 'cover'}} />
+        <Image src="Image/image 12.png" style={{width: '100%', height: 'auto', objectFit: 'cover'}} />
       </div>
       <div className="col">
         <div className="card-block px-2">
