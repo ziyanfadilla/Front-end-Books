@@ -100,7 +100,7 @@ export default class waiting extends Component {
                     <div className="ml-4" style={{marginTop: '1vh'}}>Jak OF The Bushveld</div><br />
                     <div className="ml-4">Marius Oelsching</div><br />
                     <button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}>
-                      <Link to ="/confirmation" style={{color: 'white'}}>Detail</Link></button>
+                      <Link to ="/confirmations" style={{color: 'white'}}>Detail</Link></button>
                   </div>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export default class waiting extends Component {
                       <div className="ml-4" style={{marginTop: '1vh'}}>Jak OF The Bushveld</div><br />
                       <div className="ml-4">Marius Oelsching</div><br />
                       <button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}>
-                        <Link to ="/confirmation" style={{color: 'white'}}>Detail</Link></button>
+                        <Link to ="/confirmations" style={{color: 'white'}}>Detail</Link></button>
                     </div>
                   </div>
                 </div>
@@ -141,9 +141,9 @@ export default class waiting extends Component {
                       <button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}>
                         
                         
-                        <Link to ="confirmation.html" style={{color: 'white'}}>Detail</Link></button
-                        >
-                    </div>
+                        <Link to ="/confirmations" style={{color: 'white'}}>Detail</Link>
+                        
+                    </button>
                   </div>
                 </div>
               </div>
@@ -155,7 +155,7 @@ export default class waiting extends Component {
   </div>
   </div>
   </div>
-
+  </div>
 
         )
     }

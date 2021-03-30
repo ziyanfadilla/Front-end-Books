@@ -27,13 +27,14 @@ export default class Search extends Component {
                     </div>
 
                     <div className="text-center">
-                    <Link to ="/">
+                    <Link to ="/home">
                         <Image src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png" className="rounded" alt="..." width="55px" height="55px" />
                     </Link>
                     </div>
 
-                    <Link to="/sigin" className="btn" style={{marginTop: 5, marginRight: 30, backgroundColor: 'white', color: '#1f81DF', border: '1px solid #1f81DF', borderRadius: 20, width: '10%', height: '5%'}}>Sign In</Link>
-
+                    <Link to="/profile">
+                       <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png" alt className="avatar" style={{ verticalAlign: 'middle', width: 50, height: 50, borderRadius: 50 }} />
+                  </Link>
                 </div>
                 </Navbar>
             </div>

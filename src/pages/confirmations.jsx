@@ -19,12 +19,12 @@ export default class confirmations extends Component {
                     <div className="input-group pl-2" style={{width: 350, height: 50}}>
                     <input className="form-control py-2 border-right-0 border" style={{borderTopLeftRadius: 20, borderBottomLeftRadius: 20}} type="search" defaultValue="search" id="example-search-input" />
                     <span className="input-group-append">
-                        <div className="input-group-text bg-transparent" style={{borderTopRightRadius: 20, borderBottomRightRadius: 20}}><i className="fa fa-search" /></div>
+                        <div className="input-group-text bg-transparent" style={{borderTopRightRadius: 20, borderBottomRightRadius: 20, height: 38 }}><i className="fa fa-search" /></div>
                     </span>
                     </div>
 
                     <div className="text-center">
-                    <Link to ="/">
+                    <Link to ="/home">
                         <Image src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png" className="rounded" alt="..." width="55px" height="55px" />
                     </Link>
                     </div>

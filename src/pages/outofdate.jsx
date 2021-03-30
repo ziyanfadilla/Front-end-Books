@@ -20,7 +20,7 @@ export default class outofdate extends Component {
         {/* awal navbbar */}
         <Navbar className="navbar navbar-expand-lg navbar-light bg-light" style={{ boxShadow: "12px 2px 4px" }}>
           <div className="container-fluid">
-            <link
+            <div
               className="input-group pl-2"
               style={{ width: 350, height: 50 }}>
               <input
@@ -30,19 +30,19 @@ export default class outofdate extends Component {
                 defaultValue="search"
                 id="example-search-input"/>
               <span className="input-group-append">
-                <link
+                <div
                   className="input-group-text bg-transparent"
                   style={{
                     borderTopRightRadius: 20,
                     borderBottomRightRadius: 20,
                     height : 38,}}>
-                  <link className="fa fa-search" />
-                </link>
+                  <div className="fa fa-search" />
+                </div>
               </span>
-            </link>
+            </div>
 
             <div className="text-center">
-              <Link to="/">
+              <Link to="/home">
                 <Image
                   src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png"
                   className="rounded"

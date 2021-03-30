@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Image } from "react-bootstrap";
 
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -19,35 +18,33 @@ export default class Categorilogin extends Component {
         <div>
           <Navbar
             className="navbar navbar-expand-lg navbar-light bg-light"
-            style={{ boxShadow: "12px 2px 4px" }}
-          >
+            style={{ boxShadow: "12px 2px 4px" }}>
             <div className="container-fluid">
-              <div
-                className="input-group pl-2"
-                style={{ width: 350, height: 50 }}
-              >
+              <div className="input-group pl-2"
+                style={{ width: 350, height: 50 }} >
                 <input
                   className="form-control py-2 border-right-0 border"
                   style={{
                     borderTopLeftRadius: 20,
                     borderBottomLeftRadius: 20,
-                    height : 38,
+                    
                   }}
                   type="search"
                   defaultValue="search"
                   id="example-search-input"
                 />
-                <span className="input-group-append">
+                <div className="input-group-append">
                   <div
                     className="input-group-text bg-transparent"
                     style={{
                       borderTopRightRadius: 20,
                       borderBottomRightRadius: 20,
+                      height : 38,
                     }}
                   >
                     <i className="fa fa-search" />
                   </div>
-                </span>
+                </div>
               </div>
 
               <div className="text-center">
@@ -62,21 +59,8 @@ export default class Categorilogin extends Component {
                 </Link>
               </div>
 
-              <Link
-                to="/singin"
-                className="btn"
-                style={{
-                  marginTop: 5,
-                  marginRight: 30,
-                  backgroundColor: "white",
-                  color: "#1f81DF",
-                  border: "1px solid #1f81DF",
-                  borderRadius: 20,
-                  width: "10%",
-                  height: "5%",
-                }}
-              >
-                Sign In
+              <Link to="/profile">
+                <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png"alt className="avatar" style={{verticalAlign: 'middle', width: 50, height: 50, borderRadius: 50}} />
               </Link>
             </div>
           </Navbar>
@@ -90,51 +74,7 @@ export default class Categorilogin extends Component {
           <div>
             <div className="row row-cols-5">
               <div className="col">
-                <div className="card" style={{}}>
-                  <div className="row no-gutters">
-                    <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
-                    </div>
-                    <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col">
-                <div className="card" style={{}}>
+                <div className="card">
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
                       <Image src={Image10} />
@@ -142,14 +82,29 @@ export default class Categorilogin extends Component {
                     <div className="col">
                       <div
                         className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
+                        style={{ fontSize: "smaller" }} >
+                        <div className="ml-5">Jak Of</div><br />
+                        <div className="ml-5">The bushveld</div><br />
+                        <div className="ml-5">Marius Oelsching</div><br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col">
+                <div className="card"  >
+                  <div className="row no-gutters">
+                    <div className="col-md-3 ">
+                      <Image src={Image10} />
+                    </div>
+                    <div className="col">
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }} >
+                        <div className="ml-5">Jak Of</div><br />
+                        <div className="ml-5">The bushveld</div><br />
+                        <div className="ml-5">Marius Oelsching</div><br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                         
                       </div>
                     </div>
@@ -157,111 +112,55 @@ export default class Categorilogin extends Component {
                 </div>
               </div>
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
                       <Image src={Image11} />
                     </div>
                     <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }} >
+                        <div className="ml-5">Jak Of</div> <br />
+                        <div className="ml-5">The bushveld</div> <br />
+                        <div className="ml-5">Marius Oelsching</div> <br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
                       <Image src={Image11} />
                     </div>
                     <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }}>
+                        <div className="ml-5">Jak Of</div> <br />
+                        <div className="ml-5">The bushveld</div> <br />
+                        <div className="ml-5">Marius Oelsching</div> <br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
+                      <Image src={Image10} />
                     </div>
                     <div className="col">
                       <div
                         className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                        style={{ fontSize: "smaller" }}>
+                        <div className="ml-5">Jak Of</div><br />
+                        <div className="ml-5">The bushveld</div><br />
+                        <div className="ml-5">Marius Oelsching</div><br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
@@ -270,220 +169,91 @@ export default class Categorilogin extends Component {
             </div>
             <div className="row row-cols-5">
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
+                      <Image src={Image10} />
                     </div>
                     <div className="col">
                       <div
                         className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                        style={{ fontSize: "smaller" }}>
+                        <div className="ml-5">Jak Of</div><br />
+                        <div className="ml-5">The bushveld</div><br />
+                        <div className="ml-5">Marius Oelsching</div><br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
+                      <Image src={Image10} />
                     </div>
                     <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }}>
+                        <div className="ml-5">Jak Of</div><br />
+                        <div className="ml-5">The bushveld</div><br />
+                        <div className="ml-5">Marius Oelsching</div><br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
+                      <Image src={Image10} />
                     </div>
                     <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }}>
+                        <div className="ml-5">Jak Of</div><br />
+                        <div className="ml-5">The bushveld</div><br />
+                        <div className="ml-5">Marius Oelsching</div><br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
+                      <Image src={Image10} />
                     </div>
                     <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }}>
+                        <div className="ml-5">Jak Of</div> <br />
+                        <div className="ml-5">The bushveld</div> <br />
+                        <div className="ml-5">Marius Oelsching</div> <br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
+                      <Image src={Image10} />
                     </div>
                     <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }} >
+                        <div className="ml-5">Jak Of</div> <br />
+                        <div className="ml-5">The bushveld</div> <br />
+                        <div className="ml-5">Marius Oelsching</div> <br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
@@ -492,220 +262,90 @@ export default class Categorilogin extends Component {
             </div>
             <div className="row row-cols-5">
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
+                      <Image src={Image10} />
                     </div>
                     <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }} >
+                        <div className="ml-5">Jak Of</div> <br />
+                        <div className="ml-5">The bushveld</div> <br />
+                        <div className="ml-5">Marius Oelsching</div> <br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
+                      <Image src={Image10} />
                     </div>
                     <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }}>
+                        <div className="ml-5">Jak Of</div> <br />
+                        <div className="ml-5">The bushveld</div> <br />
+                        <div className="ml-5">Marius Oelsching</div> <br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
+                      <Image src={Image10} />
                     </div>
                     <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }} >
+                        <div className="ml-5">Jak Of</div> <br />
+                        <div className="ml-5">The bushveld</div> <br />
+                        <div className="ml-5">Marius Oelsching</div> <br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
+                      <Image src={Image10} />
                     </div>
                     <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }} >
+                        <div className="ml-5">Jak Of</div> <br />
+                        <div className="ml-5">The bushveld</div> <br />
+                        <div className="ml-5">Marius Oelsching</div> <br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card" style={{}}>
+                <div className="card"  >
                   <div className="row no-gutters">
                     <div className="col-md-3 ">
-                      <Image src="Image/image 5.png" />
+                      <Image src={Image10} />
                     </div>
                     <div className="col">
-                      <div
-                        className="card-block ml-1 "
-                        style={{ fontSize: "smaller" }}
-                      >
-                        <link className="ml-5">Jak Of</link>
-                        <br />
-                        <link className="ml-5">The bushveld</link>
-                        <br />
-                        <p className="ml-5">Marius Oelsching</p>
-                        <br />
-                        <link className="ml-5">
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFB800" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                          <span
-                            className="fa fa-star checked"
-                            style={{ color: "#FFDB7E" }}
-                          />
-                        </link>
+                      <div className="card-block ml-1 "
+                        style={{ fontSize: "smaller" }} >
+                        <div className="ml-5">Jak Of</div> <br />
+                        <div className="ml-5">The bushveld</div> <br />
+                        <div className="ml-5">Marius Oelsching</div> <br />
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                       </div>
                     </div>
                   </div>

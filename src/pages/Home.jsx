@@ -465,15 +465,13 @@ export default class Home extends Component {
                 </h5>
                 <div className="row category">
                   <div className="col-md-12 mt-3">
-                    <Link to="/categori"
+                    <Link to="/categorilogin"
                       className="text-dark"
                       style={{ textDecoration: "none", listStyle: "none" }}
                     >
                       <Image
                         src={TechIcon}
-                        style={{ width: 30, height: 30 }}
-                        alt
-                      />
+                        style={{ width: 30, height: 30 }}/>
                       <p style={{ display: "inline-block" }}>Technology</p>
                     </Link>
                   </div>

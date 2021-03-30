@@ -14,22 +14,15 @@ export default class deskripsi extends Component {
   render() {
     return (
       <div>
-        <Navbar
-          className="navbar navbar-expand-lg navbar-light bg-light"
-          style={{ boxShadow: "12px 2px 4px" }}
-        >
+        <Navbar className="navbar navbar-expand-lg navbar-light bg-light"
+          style={{ boxShadow: "12px 2px 4px" }}  >
           <div className="container-fluid">
-            <div
-              className="input-group pl-2"
-              style={{ width: 350, height: 50 }}
-            >
-              <input
-                className="form-control py-2 border-right-0 border"
+            <div className="input-group pl-2" style={{ width: 350, height: 50 }} >
+              <input className="form-control py-2 border-right-0 border"
                 style={{ borderTopLeftRadius: 20, borderBottomLeftRadius: 20 }}
                 type="search"
                 defaultValue="search"
-                id="example-search-input"
-              />
+                id="example-search-input" />
               <span className="input-group-append">
                 <div
                   className="input-group-text bg-transparent"
@@ -39,26 +32,23 @@ export default class deskripsi extends Component {
                     height:38
                   }}
                 >
-                  <i className="fa fa-search" />
+                  <link className="fa fa-search" />
                 </div>
               </span>
             </div>
 
             <div className="text-center">
-              <link Link to="index.html">
+              <Link to="/home">
                 <Image
                   src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png"
                   className="rounded"
-                  
                   width="55px"
-                  height="55px"
-                />
-              </link>
+                  height="55px"/>
+              </Link>
             </div>
 
-            <link Link to="profile.html">
-              <Image
-                src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png"
+            <Link to="/profile">
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png"
                 
                 className="avatar"
                 style={{
@@ -66,9 +56,8 @@ export default class deskripsi extends Component {
                   width: 50,
                   height: 50,
                   borderRadius: 50,
-                }}
-              />
-            </link>
+                }}/>
+            </Link>
           </div>
         </Navbar>
 
@@ -76,39 +65,16 @@ export default class deskripsi extends Component {
           <div className="card mt-5">
             <div className="row no-gutters">
               <div className="col-md-4">
-                <Image
-                  src={Image3}
-                  style={{ width: "100%", height: "auto", objectFit: "cover" }}
-                />
+                <Image src={Image3}
+                  style={{ width: "100%", height: "auto", objectFit: "cover" }} />
               </div>
               <div className="col">
                 <div className="card-block px-2">
                   <h2 className="card-title ml-2">
                     At The Going Down of The Sun
                   </h2>
-                  <p className="card-text ml-2">Marius Oelsching</p>
-                  <link className="ml-5">
-                    <span
-                      className="fa fa-star checked"
-                      style={{ color: "#FFB800" }}
-                    />
-                    <span
-                      className="fa fa-star checked"
-                      style={{ color: "#FFB800" }}
-                    />
-                    <span
-                      className="fa fa-star checked"
-                      style={{ color: "#FFB800" }}
-                    />
-                    <span
-                      className="fa fa-star checked"
-                      style={{ color: "#FFDB7E" }}
-                    />
-                    <span
-                      className="fa fa-star checked"
-                      style={{ color: "#FFDB7E" }}
-                    />
-                  </link>
+                  <div className="card-text ml-2">Marius Oelsching</div>
+                  <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
                   <hr />
                   <table className="table table-borderless">
                     <tbody>
@@ -132,8 +98,7 @@ export default class deskripsi extends Component {
                       </tr>
                       <tr>
                         <td>
-                          <Link
-                            to="/confirmation"
+                          <Link to="/borrow"
                             type="submit"
                             style={{
                               height: 40,
@@ -142,24 +107,18 @@ export default class deskripsi extends Component {
                               color: "white",
                             }}
                             className="btn btn-primary"
-                          >
-                            Borrow
-                          </Link>
+                          >Borrow</Link>
                         </td>
                         <td>
-                          <Link
-                            to="/waiting"
+                          <Link to="/waiting"
                             type="submit"
                             style={{
                               height: 40,
                               width: 150,
                               borderRadius: 30,
                               border: "1px solid #5FA0DE",
-                            }}
-                            className="btn"
-                          >
-                            Chat
-                          </Link>
+                            }} className="btn">
+                            Chat</Link>
                         </td>
                       </tr>
                     </tbody>
@@ -171,7 +130,7 @@ export default class deskripsi extends Component {
           <h5 style={{ marginTop: "5%" }}>
             <b>Deskripsi</b>
           </h5>
-          <p className="text" style={{ textAlign: "justify" }}>
+          <link className="text" style={{ textAlign: "justify" }}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
             aperiam adipisci numquam distinctioeos, molestiae beatae odio
             sapiente blanditiis consequuntur fugiat quas dolorum, earum ea.
@@ -179,10 +138,10 @@ export default class deskripsi extends Component {
             consectetur adipisicing elit. Harum, aspernatur similique libero
             eaque placeat esse sapiente rem ratione. Rerum qui aperiam hic ex
             ea, pariatur aliquam quis. Consequatur, ut autem.
-          </p>
+          </link>
         </div>
         
       </div>
-    );
+    )
   }
 }

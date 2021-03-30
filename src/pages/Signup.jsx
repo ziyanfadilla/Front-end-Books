@@ -36,7 +36,7 @@ export default class Signup extends Component {
                             <Image src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png" alt width="50px" height="40px" />
                             <h1 style={{color: '#5FA0DE'}}>Hello, Pluginers</h1>
                             <p style={{color: '#5FA0DE', fontSize: 20, textAlign: 'center'}}>Enter your personal details <br /> and starts journey with us</p>
-                            <Link to="/signin" className="btn" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 300, height: 40}}>Sign In</Link>
+                            <Link to="/home" className="btn" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 300, height: 40}}>Sign In</Link>
                         </div>
                     </div>
                 </div>

@@ -34,7 +34,7 @@ export default class SignIn extends Component {
                       <input type="password" className="form-control" placeholder="Password" style={{border: '1px solid color = #5FA0DE', borderRadius: 30, height: 50, paddingLeft: 55, marginTop: '5vh'}} />
                       <div className="fa fa-eye-slash" aria-hidden="true" />
                     </div>
-                    <Link to="/" className="btn" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 30, width: 300, height: 40, marginTop: '5vh', marginLeft: '20vh'}}>Sign In</Link>
+                    <div className="btn" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 30, width: 300, height: 40, marginTop: '5vh', marginLeft: '20vh'}}>Sign In</div>
                   </div>
                 </div>
               </div>

@@ -40,38 +40,38 @@ export default class waitingborrow extends Component {
               <div className="d-flex justify-content-around align-items-center flex-column" style={{ height: '10%', marginTop: '25vh', marginRight: 10 }}>
 
                 <div className="col-md-12 mt-3">
-                  <a href="profil.html">
+                  <Link to="/profile">
                     < Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Group52_gdn8mt.png" style={{ width: 40, height: 40 }} alt />
                     <p style={{ display: 'inline-block', marginLeft: '3vh', fontSize: 20 }}>Profil</p>
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="col-md-12 mt-3">
-                  <a href="books.html">
+                  <Link to="/books">
                     < Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Group53_akdcyu.png" style={{ width: 40, height: 40 }} alt />
                     <p style={{ display: 'inline-block', marginLeft: '3vh', fontSize: 20 }}>Books</p>
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="col-md-12 mt-3">
-                  <a href="outofdate.html">
+                  <Link to="/outofdate">
                     < Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627809/chunin/Group54_1_j2svvr.png" style={{ width: 40, height: 40 }} alt />
                     <p style={{ display: 'inline-block', marginLeft: '3vh', fontSize: 20 }}>Out of Date</p>
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="col-md-12 mt-3">
-                  <a href="waitingborrow.html">
+                  <Link to="/waitingborrow">
                     < Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627809/chunin/Group54_1_j2svvr.png" style={{ width: 40, height: 40 }} alt />
                     <p style={{ display: 'inline-block', marginLeft: '3vh', fontSize: 20 }}>Waiting Borrow</p>
-                  </a>
+                  </Link>
                 </div>
 
                 <div className="col-md-12 mt-3">
-                  <a href="waiting">
+                  <Link to="/waiting">
                     < Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627809/chunin/Group54_2_cxiqma.png" style={{ width: 40, height: 40 }} alt />
                     <p style={{ display: 'inline-block', marginLeft: '3vh', fontSize: 20 }}>Waiting</p>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

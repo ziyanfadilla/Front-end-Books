@@ -18,17 +18,17 @@ export default class Borrow extends Component {
                     <div className="input-group pl-2" style={{width: 350, height: 50}}>
                     <input className="form-control py-2 border-right-0 border" style={{borderTopLeftRadius: 20, borderBottomLeftRadius: 20}} type="search" defaultValue="search" id="example-search-input" />
                     <span className="input-group-append">
-                        <div className="input-group-text bg-transparent" style={{borderTopRightRadius: 20, borderBottomRightRadius: 20}}><i className="fa fa-search" /></div>
+                    <div className="input-group-text bg-transparent" style={{borderTopRightRadius: 20, borderBottomRightRadius: 20}}><i className="fa fa-search" /></div>
                     </span>
                     </div>
 
                     <div className="text-center">
-                    <Link to ="index.html">
+                    <Link to ="/home">
                         <Image src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png" className="rounded" alt="..." width="55px" height="55px" />
                     </Link>
                     </div>
 
-                    <Link to="profile.html">
+                    <Link to="/profile">
                     <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png"alt className="avatar" style={{verticalAlign: 'middle', width: 50, height: 50, borderRadius: 50}} />
                     </Link>
                 </div>
@@ -63,8 +63,6 @@ export default class Borrow extends Component {
                   </table>
                 </div>
               </div>
-
-              {/*  */}
               <div className="row" style={{marginLeft: '40vh', marginTop: '10vh', marginRight: '10vh'}}>
                 <div className="column">
                   <input type="datetime-local" className="dateTime" name="starttime" id="startTime" step={2} style={{width: 250}} />

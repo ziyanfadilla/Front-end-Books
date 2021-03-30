@@ -26,12 +26,12 @@ export default class Categori extends Component {
                     </div>
 
                     <div className="text-center">
-                    <Link to ="index.html">
+                    <Link to ="/">
                         <Image src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png" className="rounded" alt="..." width="55px" height="55px" />
                     </Link>
                     </div>
 
-                    <Link to="index.html" className="btn" style={{marginTop: 5, marginRight: 30, backgroundColor: 'white', color: '#1f81DF', border: '1px solid #1f81DF', borderRadius: 20, width: '10%', height: '5%'}}>Sign In</Link>
+                    <Link to="/signin" className="btn" style={{marginTop: 5, marginRight: 30, backgroundColor: 'white', color: '#1f81DF', border: '1px solid #1f81DF', borderRadius: 20, width: '10%', height: '5%'}}>Sign In</Link>
 
                 </div>
                 </Navbar>

@@ -88,7 +88,7 @@ export default class Books extends Component {
                     <div className="ml-5">Jak Of</div>
                     <div className="ml-5">The bushveld</div>
                     <p className="ml-5">Marius Oelsching</p>
-                    <Link to="" className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</Link>
+                    <div className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</div>
                   </div>
                 </div>
               </div>

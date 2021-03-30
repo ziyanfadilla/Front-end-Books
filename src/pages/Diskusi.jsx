@@ -40,18 +40,17 @@ export default class Diskusi extends Component {
             </div>
 
             <div className="text-center">
-              <Link to="index.html">
+              <Link to="/home">
                 <Image
                   src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png"
                   className="rounded"
                   alt="..."
                   width="55px"
-                  height="55px"
-                />
+                  height="55px"/>
               </Link>
             </div>
 
-            < Link to="profile.html">
+            < Link to="/profile">
               <Image
                 src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png"
                 alt
@@ -105,19 +104,14 @@ export default class Diskusi extends Component {
                       </tr>
                       <tr>
                         <td>
-                          <Link
-                            to="/confirmation"
+                          <Link to="/confirmations"
                             type="submit"
                             style={{
                               height: 40,
                               width: 150,
                               borderRadius: 30,
                               color: "white",
-                            }}
-                            className="btn btn-primary"
-                          >
-                            Borrow
-                          </Link>
+                            }}className="btn btn-primary"> Borrow </Link>
                         </td>
                         <td>
                           <Link
