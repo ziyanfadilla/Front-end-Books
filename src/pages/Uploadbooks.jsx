@@ -24,7 +24,9 @@ export default class Uploadbooks extends Component {
 
 
                     <div class="text-center">
+                      <Link to = "/">
                         <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616622142/logoPLUGIN_qsovpm_jmo8rn.png" alt width="50px" height="40px"></Image>
+                        </Link>
                     </div>
 
 
@@ -47,35 +49,35 @@ export default class Uploadbooks extends Component {
                   <div className="d-flex justify-content-around align-items-center flex-column" style={{height: '5%', marginTop: '30vh', marginRight: 10}}>
                     
                     <div className="col-md-12 mt-3">
-                      <Link to="profil.html">
+                      <Link to="/profile">
                         <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Group52_gdn8mt.png" style={{width: 40, height: 40}} alt />
                         <p style={{display: 'inline-block', marginLeft: '3vh', fontSize: 20}}>Profil</p>
                       </Link>
                     </div>
 
                     <div className="col-md-12 mt-3">
-                      <Link to="books.html">
+                      <Link to="/books">
                         <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Group53_akdcyu.png" style={{width: 40, height: 40}} alt />
                         <p style={{display: 'inline-block', marginLeft: '3vh', fontSize: 20}}>Books</p>
                       </Link>
                     </div>
 
                     <div className="col-md-12 mt-3">
-                      <Link to="outofdate.html">
+                      <Link to="/outofdate">
                         <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627809/chunin/Group54_1_j2svvr.png" style={{width: 40, height: 40}} alt />
                         <p style={{display: 'inline-block', marginLeft: '3vh', fontSize: 20}}>Out of Date</p>
                       </Link>
                     </div>
 
                     <div className="col-md-12 mt-3">
-                      <Link to="waitingborrow.html">
+                      <Link to="/waitingborrow">
                         <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627809/chunin/Group54_1_j2svvr.png" style={{width: 40, height: 40}} alt />
                         <p style={{display: 'inline-block', marginLeft: '3vh', fontSize: 20}}>Waiting Borrow</p>
                       </Link>
                     </div>
 
                     <div className="col-md-12 mt-3">
-                      <Link to="waiting.html">
+                      <Link to="/waiting">
                         <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627809/chunin/Group54_2_cxiqma.png" style={{width: 40, height: 40}} alt />
                         <p style={{display: 'inline-block', marginLeft: '3vh', fontSize: 20}}>Waiting</p>
                       </Link>
@@ -105,7 +107,7 @@ export default class Uploadbooks extends Component {
 
                             <label>ISBN</label>
                             <div className="form-group" style={{width: 500}}>
-                                <input type="text" className="form-control" placeholder="input ISBN<" style={{border: '1px solid color = #1f81DF', borderRadius: 30, height: 50, paddingLeft: 55}}></input>
+                                <input type="text" className="form-control" placeholder="input ISBN" style={{border: '1px solid color = #1f81DF', borderRadius: 30, height: 50, paddingLeft: 55}}></input>
                             </div>
 
                             <label>Pages</label>

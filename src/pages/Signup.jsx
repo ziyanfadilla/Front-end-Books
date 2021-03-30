@@ -27,7 +27,7 @@ export default class Signup extends Component {
                                 <input type="text" className="form-control" placeholder="password" style={{backgroundColor: '#5FA0DE', border: '1px solid white', borderRadius: 30, height: 50, paddingLeft: 30}} />
                             </div>
                             </div>
-                            <Link to="signin.html" className="btn w-50" style={{backgroundColor: 'white', border: '1px solid', borderRadius: 20, height: 40, color: '#5FA0DE', bottom: '50%'}}>Sign Up</Link>  
+                            <Link to="/" className="btn w-50" style={{backgroundColor: 'white', border: '1px solid', borderRadius: 20, height: 40, color: '#5FA0DE', bottom: '50%'}}>Sign Up</Link>  
                         </div>
                     </div>
 

@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import { Navbar, Image } from 'react-bootstrap'
 
 // import img from '../assets/img'
-import Image3 from "../assets/img/image 3.png";
+
 import Image5 from "../assets/img/image 5.png";
 import Image10 from "../assets/img/image 10.png";
 import Image11 from "../assets/img/image 11.png";
@@ -22,14 +22,14 @@ export default class Books extends Component {
                     </div>
 
                     <div className="text-center">
-                    <link Link to ="/home">
+                    <Link to ="/home">
                         <Image src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png" className="rounded" alt="..." width="55px" height="55px" />
-                    </link>
+                    </Link>
                     </div>
 
-                    <link Link to="/profile">
+                    <Link to="/profile">
                     <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png"alt className="avatar" style={{verticalAlign: 'middle', width: 50, height: 50, borderRadius: 50}} />
-                    </link>
+                    </Link>
                 </div>
                 </Navbar>
 
@@ -85,10 +85,10 @@ export default class Books extends Component {
                 </div>
                 <div className="col">
                   <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-                    <link className="ml-5">Jak Of</link><br />
-                    <link className="ml-5">The bushveld</link><br />
-                    <p className="ml-5">Marius Oelsching</p><br />
-                    <link className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</link>
+                    <div className="ml-5">Jak Of</div>
+                    <div className="ml-5">The bushveld</div>
+                    <p className="ml-5">Marius Oelsching</p>
+                    <Link to="" className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</Link>
                   </div>
                 </div>
               </div>
@@ -102,10 +102,10 @@ export default class Books extends Component {
                 </div>
                 <div className="col">
                   <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-                    <link className="ml-5">Jak Of</link><br />
-                    <link className="ml-5">The bushveld</link><br />
-                    <p className="ml-5">Marius Oelsching</p><br />
-                    <link  className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</link>
+                    <div className="ml-5">Jak Of</div>
+                    <div className="ml-5">The bushveld</div>
+                    <p className="ml-5">Marius Oelsching</p>
+                    <Link to=""  className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</Link>
                   </div>
                 </div>
               </div>
@@ -119,10 +119,10 @@ export default class Books extends Component {
                 </div>
                 <div className="col">
                   <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-                    <link className="ml-5">Jak Of</link><br />
-                    <link className="ml-5">The bushveld</link><br />
-                    <p className="ml-5">Marius Oelsching</p><br />
-                    <link Link to className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</link>
+                    <div className="ml-5">Jak Of</div>
+                    <div className="ml-5">The bushveld</div>
+                    <p className="ml-5">Marius Oelsching</p>
+                    <Link to="" className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</Link>
                   </div>
                 </div>
               </div>
@@ -138,10 +138,10 @@ export default class Books extends Component {
                 </div>
                 <div className="col">
                   <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-                    <link className="ml-5">Jak Of</link><br />
-                    <link className="ml-5">The bushveld</link><br />
-                    <p className="ml-5">Marius Oelsching</p><br />
-                    <link Link to className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</link>
+                    <div className="ml-5">Jak Of</div>
+                    <div className="ml-5">The bushveld</div>
+                    <p className="ml-5">Marius Oelsching</p>
+                    <Link to="" className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</Link>
                   </div>
                 </div>
               </div>
@@ -155,10 +155,10 @@ export default class Books extends Component {
                 </div>
                 <div className="col">
                   <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-                    <link className="ml-5">Jak Of</link><br />
-                    <link className="ml-5">The bushveld</link><br />
-                    <p className="ml-5">Marius Oelsching</p><br />
-                    <link Link to className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</link>
+                    <div className="ml-5">Jak Of</div><br />
+                    <div className="ml-5">The bushveld</div>
+                    <p className="ml-5">Marius Oelsching</p>
+                    <Link to="" className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</Link>
                   </div>
                 </div>
               </div>
@@ -172,17 +172,17 @@ export default class Books extends Component {
                 </div>
                 <div className="col">
                   <div className="card-block ml-1 " style={{fontSize: 'smaller'}}>
-                    <link className="ml-5">Jak Of</link><br />
-                    <link className="ml-5">The bushveld</link><br />
-                    <p className="ml-5">Marius Oelsching</p><br />
-                    <Link to="javascript: void(0)" className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</Link>
+                    <div className="ml-5">Jak Of</div>
+                    <div className="ml-5">The bushveld</div>
+                    <p className="ml-5">Marius Oelsching</p>
+                    <Link to="/upload" className="btn w-30px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 100, height: 30, marginLeft: 50}}>Edit</Link>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <Link to="uploadbook.html" className="btn w-50px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 200, height: 40, marginLeft: '85vh'}}>Add Books</Link>
+        <Link to="/uploadbooks" className="btn w-50px" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 20, width: 200, height: 40, marginLeft: '85vh'}}>Add Books</Link>
       </div>
     </div>
   </div>

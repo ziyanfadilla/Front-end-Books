@@ -34,9 +34,9 @@ export default class waitingborrow extends Component {
 
 
         <div className="container-fluid">
-          <div className="row" style={{ height: '100vh', marginTop: '5vh' }}>
+          <div className="row" style={{ height: '100vh'}}>
 
-            <div className="col-3" style={{boxShadow: '12px 0px 2px'}}>
+            <div className="col-3" style={{boxShadow: '3px 0px 2px'}}>
               <div className="d-flex justify-content-around align-items-center flex-column" style={{ height: '10%', marginTop: '25vh', marginRight: 10 }}>
 
                 <div className="col-md-12 mt-3">

@@ -18,35 +18,28 @@ export default class outofdate extends Component {
     return (
       <div>
         {/* awal navbbar */}
-        <Navbar
-          className="navbar navbar-expand-lg navbar-light bg-light"
-          style={{ boxShadow: "12px 2px 4px" }}
-        >
+        <Navbar className="navbar navbar-expand-lg navbar-light bg-light" style={{ boxShadow: "12px 2px 4px" }}>
           <div className="container-fluid">
-            <div
+            <link
               className="input-group pl-2"
-              style={{ width: 350, height: 50 }}
-            >
+              style={{ width: 350, height: 50 }}>
               <input
                 className="form-control py-2 border-right-0 border"
                 style={{ borderTopLeftRadius: 20, borderBottomLeftRadius: 20 }}
                 type="search"
                 defaultValue="search"
-                id="example-search-input"
-              />
+                id="example-search-input"/>
               <span className="input-group-append">
-                <div
+                <link
                   className="input-group-text bg-transparent"
                   style={{
                     borderTopRightRadius: 20,
                     borderBottomRightRadius: 20,
-                    height : 38,
-                  }}
-                >
-                  <i className="fa fa-search" />
-                </div>
+                    height : 38,}}>
+                  <link className="fa fa-search" />
+                </link>
               </span>
-            </div>
+            </link>
 
             <div className="text-center">
               <Link to="/">
@@ -84,7 +77,7 @@ export default class outofdate extends Component {
             >
               <div className="d-flex  flex-column justify-content-center align-items-center">
                 <ul className="list-unstyled" style={{ marginTop: 30 }}>
-                  <li
+                  <link
                     className="d-flex justify-content-center"
                     style={{
                       border: "1px soli",
@@ -93,20 +86,20 @@ export default class outofdate extends Component {
                       marginBottom: 15,
                     }}
                   >
-                    <div
+                    <link
                       className="d-flex justify-content-around align-items-center"
                       style={{ width: "50%" }}
                     >
                       <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png" />
 
                       <Link to="/profile">profile</Link>
-                    </div>
-                  </li>
+                    </link>
+                  </link>
                   <li
                     className="d-flex justify-content-center"
                     style={{ border: 1, width: 300, borderRadius: 30 }}
                   >
-                    <div
+                    <link
                       className="d-flex justify-content-around align-items-center"
                       style={{ width: "50%" }}
                     >
@@ -116,9 +109,9 @@ export default class outofdate extends Component {
                         alt
                       />
                       <Link to="/books">Books</Link>
-                    </div>
+                    </link>
                   </li>
-                  <li
+                  <link
                     className="d-flex justify-content-center"
                     style={{
                       border: "1px #5FA0DE",
@@ -144,7 +137,7 @@ export default class outofdate extends Component {
                         Out of Datw
                       </Link>
                     </div>
-                  </li>
+                  </link>
                   <li
                     className="d-flex justify-content-center"
                     style={{
@@ -213,17 +206,13 @@ export default class outofdate extends Component {
                         <div className="col">
                           <div
                             className="card-block ml-1 "
-                            style={{ fontSize: "smaller" }}
-                          >
-                            < link className="ml-5">Jak Of</link>
-                            <br />
-                            < link className="ml-5">The bushveld</link>
-                            <br />
-                            <p className="ml-5">Marius Oelsching</p>
-                            <br />
-                            <p className="ml-5" style={{ fontSize: "smaller" }}>
+                            style={{ fontSize: "smaller" }}>
+                            <link className="ml-5">Jak Of</link><br />
+                            <link className="ml-5">The bushveld</link><br />
+                            <link className="ml-5">Marius Oelsching</link><br />
+                            <link className="ml-5" style={{ fontSize: "smaller" }}>
                               start date 1 may 2020 End date 7 may 2020
-                            </p>
+                            </link>
                           </div>
                         </div>
                       </div>
@@ -238,17 +227,13 @@ export default class outofdate extends Component {
                         <div className="col">
                           <div
                             className="card-block ml-1 "
-                            style={{ fontSize: "smaller" }}
-                          >
-                            <link link className="ml-5">Jak Of</link>
-                            <br />
-                            < link className="ml-5">The bushveld</link>
-                            <br />
-                            <p className="ml-5">Marius Oelsching</p>
-                            <br />
-                            <p className="ml-5" style={{ fontSize: "smaller" }}>
+                            style={{ fontSize: "smaller" }}>
+                            <link className="ml-5">Jak Of</link> <br />
+                            <link className="ml-5">The bushveld</link><br />
+                            <link className="ml-5">Marius Oelsching</link><br />
+                            <link className="ml-5" style={{ fontSize: "smaller" }}>
                               start date 1 may 2020 End date 7 may 2020
-                            </p>
+                            </link>
                           </div>
                         </div>
                       </div>
@@ -263,27 +248,21 @@ export default class outofdate extends Component {
                         <div className="col">
                           <div
                             className="card-block ml-1 "
-                            style={{ fontSize: "smaller" }}
-                          >
-                            < link className="ml-5">Jak Of</link>
-                            <br />
-                            < link className="ml-5">The bushveld</link>
-                            <br />
-                            <p className="ml-5">Marius Oelsching</p>
-                            <br />
-                            <p className="ml-5" style={{ fontSize: "smaller" }}>
+                            style={{ fontSize: "smaller" }}>
+                            <link className="ml-5">Jak Of</link><br />
+                            <link className="ml-5">The bushveld</link><br />
+                            <link className="ml-5">Marius Oelsching</link><br />
+                            <link className="ml-5" style={{ fontSize: "smaller" }}>
                               start date 1 may 2020 End date 7 may 2020
-                            </p>
+                            </link>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div
-                  className="row row cols-3"
-                  style={{ marginTop: "10%", marginBottom: "5%" }}
-                >
+                <div className="row row cols-3"
+                  style={{ marginTop: "10%", marginBottom: "5%" }}>
                   <div className="col">
                     <div className="card">
                       <div className="row no-gutters">
@@ -293,17 +272,13 @@ export default class outofdate extends Component {
                         <div className="col">
                           <div
                             className="card-block ml-1 "
-                            style={{ fontSize: "smaller" }}
-                          >
-                            < link className="ml-5">Jak Of</link>
-                            <br />
-                            < link className="ml-5">The bushveld</link>
-                            <br />
-                            <p className="ml-5">Marius Oelsching</p>
-                            <br />
-                            <p className="ml-5" style={{ fontSize: "smaller" }}>
+                            style={{ fontSize: "smaller" }}>
+                            <link className="ml-5">Jak Of</link><br />
+                            <link className="ml-5">The bushveld</link><br />
+                            <link className="ml-5">Marius Oelsching</link><br />
+                            <link className="ml-5" style={{ fontSize: "smaller" }}>
                               start date 1 may 2020 End date 2 may 2020
-                            </p>
+                            </link>
                           </div>
                         </div>
                       </div>
@@ -318,17 +293,13 @@ export default class outofdate extends Component {
                         <div className="col">
                           <div
                             className="card-block ml-1 "
-                            style={{ fontSize: "smaller" }}
-                          >
-                            < link className="ml-5">Jak Of</link>
-                            <br />
-                            < link className="ml-5">The bushveld</link>
-                            <br />
-                            <p className="ml-5">Marius Oelsching</p>
-                            <br />
-                            <p className="ml-5" style={{ fontSize: "smaller" }}>
+                            style={{ fontSize: "smaller" }}>
+                            <link className="ml-5">Jak Of</link><br />
+                            <link className="ml-5">The bushveld</link><br />
+                            <link className="ml-5">Marius Oelsching</link><br />
+                            <link className="ml-5" style={{ fontSize: "smaller" }}>
                               start date 1 may 2020 End date 7 may 2020
-                            </p>
+                            </link>
                           </div>
                         </div>
                       </div>
@@ -343,17 +314,13 @@ export default class outofdate extends Component {
                         <div className="col">
                           <div
                             className="card-block ml-1 "
-                            style={{ fontSize: "smaller" }}
-                          >
-                            < link className="ml-5">Jak Of</link>
-                            <br />
-                            < link className="ml-5">The bushveld</link>
-                            <br />
-                            <p className="ml-5">Marius Oelsching</p>
-                            <br />
-                            <p className="ml-5" style={{ fontSize: "smaller" }}>
+                            style={{ fontSize: "smaller" }}>
+                            <link className="ml-5">Jak Of</link><br />
+                            <link className="ml-5">The bushveld</link><br />
+                            <link className="ml-5">Marius Oelsching</link><br />
+                            <link className="ml-5" style={{ fontSize: "smaller" }}>
                               start date 1 may 2020 End date 7 may 2020
-                            </p>
+                            </link>
                           </div>
                         </div>
                       </div>

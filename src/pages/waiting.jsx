@@ -18,7 +18,6 @@ export default class waiting extends Component {
                     <div class="position-relative">
                     <Form inline>
                         <FormControl type="text" placeholder="Search" img className="rounded-pill" alt="150x75" src="https://placehold.it/150x75">
-                        {/* <i className="fa FaSearch fa-lg position-absolute" style={{top : '13', right: '1rem', color: 'rgb(184, 182, 182)'}} ></i> */}
    
                         </FormControl>
                     </Form>
@@ -26,7 +25,9 @@ export default class waiting extends Component {
 
 
                     <div class="text-center">
+                      <Link to = "/">
                         <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616622142/logoPLUGIN_qsovpm_jmo8rn.png" alt width="50px" height="40px"></Image>
+                        </Link>
                     </div>
 
 
@@ -42,7 +43,7 @@ export default class waiting extends Component {
 
 
             <div className="container-fluid">
-              <div className="row" style={{height: '100vh', marginTop: '5vh'}}>
+              <div className="row" style={{height: '100vh'}}>
 
                 <div className="col-3" style={{boxShadow: '3px 0px 3px rgb(168, 166, 166)'}}> 
                   <div className="d-flex justify-content-around align-items-center flex-column" style={{height: '10%', marginTop: '25vh', marginRight: 10}}>
@@ -84,10 +85,6 @@ export default class waiting extends Component {
                   </div>
                 </div>
 
-
-
-
-
     <div className="col-8">
       <div className="container">
         <h3 style={{marginLeft: 5, marginTop: 30}}>Your Books</h3>
@@ -100,9 +97,10 @@ export default class waiting extends Component {
                 </div>
                 <div className="col" style={{marginLeft: '3vh', marginTop: '1vh'}}>
                   <div className="card-block ml-1">
-                    <link className="ml-4" style={{marginTop: '1vh'}}>Jak OF The Bushveld</link><br />
-                    <link className="ml-4">Marius Oelsching</link><br />
-                    <button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}><Link Link to ="confirmation.html" style={{color: 'white'}}>Detail</Link></button>
+                    <div className="ml-4" style={{marginTop: '1vh'}}>Jak OF The Bushveld</div><br />
+                    <div className="ml-4">Marius Oelsching</div><br />
+                    <button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}>
+                      <Link to ="/confirmation" style={{color: 'white'}}>Detail</Link></button>
                   </div>
                 </div>
               </div>
@@ -118,9 +116,10 @@ export default class waiting extends Component {
                   </div>
                   <div className="col" style={{marginLeft: '3vh', marginTop: '1vh'}}>
                     <div className="card-block ml-1">
-                      <link className="ml-4" style={{marginTop: '1vh'}}>Jak OF The Bushveld</link><br />
-                      <link className="ml-4">Marius Oelsching</link><br />
-                      <button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}><Link Link to ="confirmation.html" style={{color: 'white'}}>Detail</Link></button>
+                      <div className="ml-4" style={{marginTop: '1vh'}}>Jak OF The Bushveld</div><br />
+                      <div className="ml-4">Marius Oelsching</div><br />
+                      <button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}>
+                        <Link to ="/confirmation" style={{color: 'white'}}>Detail</Link></button>
                     </div>
                   </div>
                 </div>
@@ -137,9 +136,13 @@ export default class waiting extends Component {
                   </div>
                   <div className="col" style={{marginLeft: '3vh', marginTop: '1vh'}}>
                     <div className="card-block ml-1 ml-2">
-                      <link className="ml-3" style={{marginTop: '1vh'}}>Jak OF The Bushveld</link><br />
-                      <link className="ml-3">Marius Oelsching</link><br />
-                      <button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}><Link Link to ="confirmation.html" style={{color: 'white'}}>Detail</Link></button>
+                      <div className="ml-3" style={{marginTop: '1vh'}}>Jak OF The Bushveld</div><br />
+                      <div className="ml-3">Marius Oelsching</div><br />
+                      <button type="button" className="btn btn-primary; ml-5" style={{borderRadius: 20, width: '15vh', color: 'white', backgroundColor: '#1f81DF'}}>
+                        
+                        
+                        <Link to ="confirmation.html" style={{color: 'white'}}>Detail</Link></button
+                        >
                     </div>
                   </div>
                 </div>

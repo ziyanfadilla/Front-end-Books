@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // import img from '../assets/img'
-import Image3 from "../assets/img/image 3.png";
+// import Image3 from "../assets/img/image 3.png";
 import Image5 from "../assets/img/image 5.png";
 import Image10 from "../assets/img/image 10.png";
 import Image11 from "../assets/img/image 11.png";
@@ -54,6 +54,7 @@ export default class Home extends Component {
                   style={{
                     borderTopRightRadius: 20,
                     borderBottomRightRadius: 20,
+                    height : 38,
                     backgroundColor: "white",
                   }}
                 >
@@ -96,7 +97,33 @@ export default class Home extends Component {
           </div>
 
           <Slider {...settings}>
-            <div>
+          <div className="slide-item">
+                <div
+                  className="card m-2 bg-linear-red"
+                  style={{ maxWidth: 540, background: "#7A284C" }}
+                >
+                  <div className="row no-gutters">
+                    <div className="col-12 col-md-4 ">
+                      <Image
+                        src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627810/chunin/image3_izfo32.png"
+                        style={{ width: 150, height: 200, marginLeft: "1vh" }}
+                        
+                      />
+                    </div>
+                    <div className="col-12 col-md-5">
+                      <div className="card-body">
+                        <h5 className="card-title">
+                          At The Going Down of the Sun
+                        </h5>
+                        <p className="card-text">Marius Oelsching</p>
+                        <p className="card-text">
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="slide-item">
                 <div
                   className="card m-2 bg-linear-red"
@@ -124,6 +151,62 @@ export default class Home extends Component {
                   </div>
                 </div>
               </div>
+              <div className="slide-item">
+                <div
+                  className="card m-2 bg-linear-red"
+                  style={{ maxWidth: 540, background: "#7A284C" }}
+                >
+                  <div className="row no-gutters">
+                    <div className="col-12 col-md-4 ">
+                      <Image
+                        src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627810/chunin/image3_izfo32.png"
+                        style={{ width: 150, height: 200, marginLeft: "1vh" }}
+                        
+                      />
+                    </div>
+                    <div className="col-12 col-md-5">
+                      <div className="card-body">
+                        <h5 className="card-title">
+                          At The Going Down of the Sun
+                        </h5>
+                        <p className="card-text">Marius Oelsching</p>
+                        <p className="card-text">
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="slide-item">
+                <div
+                  className="card m-2 bg-linear-red"
+                  style={{ maxWidth: 540, background: "#7A284C" }}
+                >
+                  <div className="row no-gutters">
+                    <div className="col-12 col-md-4 ">
+                      <Image
+                        src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627810/chunin/image3_izfo32.png"
+                        style={{ width: 150, height: 200, marginLeft: "1vh" }}
+                        
+                      />
+                    </div>
+                    <div className="col-12 col-md-5">
+                      <div className="card-body">
+                        <h5 className="card-title">
+                          At The Going Down of the Sun
+                        </h5>
+                        <p className="card-text">Marius Oelsching</p>
+                        <p className="card-text">
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            {/* <div>
+              
             </div>
             <div>
               <div className="slide-item">
@@ -212,7 +295,7 @@ export default class Home extends Component {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </Slider>
           <div className="container">
             <div className="row">
@@ -395,7 +478,7 @@ export default class Home extends Component {
                     </Link>
                   </div>
                   <div className="col-md-12 mt-3">
-                    <Link to="search.html"
+                    <Link to="/search"
                       className="text-dark"
                       style={{ textDecoration: "none", listStyle: "none" }}
                     >
@@ -418,25 +501,19 @@ export default class Home extends Component {
                   <div className="col-md-12 mt-3">
                     <Image
                       src={RomanceIcon}
-                      style={{ width: 30, height: 30 }}
-                      alt
-                    />
+                      style={{ width: 30, height: 30 }}alt/>
                     <p style={{ display: "inline-block" }}>Romance</p>
                   </div>
                   <div className="col-md-12 mt-3">
                     <Image
                       src={ScienceIcon}
-                      style={{ width: 30, height: 30 }}
-                      alt
-                    />
+                      style={{ width: 30, height: 30 }}alt/>
                     <p style={{ display: "inline-block" }}>Science</p>
                   </div>
                   <div className="col-md-12 mt-3">
                     <Image
                       src={SportIcon}
-                      style={{ width: 30, height: 30 }}
-                      alt
-                    />
+                      style={{ width: 30, height: 30 }} alt/>
                     <p style={{ display: "inline-block" }}>Sports</p>
                   </div>
                 </div>

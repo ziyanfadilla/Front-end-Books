@@ -6,6 +6,8 @@ import {Navbar,Image} from 'react-bootstrap'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import Image12 from "../assets/img/image 12.png";
+
 
 
 export default class confirmations extends Component {
@@ -22,12 +24,12 @@ export default class confirmations extends Component {
                     </div>
 
                     <div className="text-center">
-                    <Link to ="index.html">
+                    <Link to ="/">
                         <Image src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png" className="rounded" alt="..." width="55px" height="55px" />
                     </Link>
                     </div>
 
-                    <Link to="profile.html">
+                    <Link to="/profile">
                     <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616627808/chunin/Circled_UserMaleSkinType6_qopr0z.png"alt className="avatar" style={{verticalAlign: 'middle', width: 50, height: 50, borderRadius: 50}} />
                     </Link>
                 </div>
@@ -37,7 +39,7 @@ export default class confirmations extends Component {
   <div className="card mt-5">
     <div className="row no-gutters">
       <div className="col-md-4">
-        <Image src="Image/image 12.png" style={{width: '100%', height: 'auto', objectFit: 'cover'}} />
+        <Image src={Image12} style={{width: '100%', height: 'auto', objectFit: 'cover'}} />
       </div>
       <div className="col">
         <div className="card-block px-2">
@@ -59,10 +61,10 @@ export default class confirmations extends Component {
               </tr>
               <tr>
                 <td>
-                  <Link to=" " type="submit" style={{height: 40, width: 150, borderRadius: 30, color: 'white'}} className="btn btn-success">Accept</Link>
+                  <Link to="" type="submit" style={{height: 40, width: 150, borderRadius: 30, color: 'white'}} className="btn btn-success">Accept</Link>
                 </td>
                 <td>
-                  <Link to type="submit" style={{height: 40, width: 150, borderRadius: 30, color: 'white'}} className="btn btn-danger">Reject</Link>
+                  <Link to ="" type="submit" style={{height: 40, width: 150, borderRadius: 30, color: 'white'}} className="btn btn-danger">Reject</Link>
                 </td>
               </tr>
             </tbody></table>

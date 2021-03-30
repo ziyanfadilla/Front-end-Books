@@ -32,9 +32,9 @@ export default class SignIn extends Component {
                     </div>
                     <div className="form-group" style={{width: 500}}>
                       <input type="password" className="form-control" placeholder="Password" style={{border: '1px solid color = #5FA0DE', borderRadius: 30, height: 50, paddingLeft: 55, marginTop: '5vh'}} />
-                      <i className="fa fa-eye-slash" aria-hidden="true" />
+                      <div className="fa fa-eye-slash" aria-hidden="true" />
                     </div>
-                    <Link to="/home" className="btn" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 30, width: 300, height: 40, marginTop: '5vh', marginLeft: '20vh'}}>Sign In</Link>
+                    <Link to="/" className="btn" style={{backgroundColor: '#5FA0DE', color: 'white', borderRadius: 30, width: 300, height: 40, marginTop: '5vh', marginLeft: '20vh'}}>Sign In</Link>
                   </div>
                 </div>
               </div>

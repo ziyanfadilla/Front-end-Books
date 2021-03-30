@@ -38,7 +38,7 @@ export default class Profile extends Component {
             </div>
 
             <div className="text-center">
-              <Link to="index.html">
+              <Link to="/">
                 <Image
                   src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png"
                   className="rounded"
@@ -119,7 +119,7 @@ export default class Profile extends Component {
 
                             <label style={{color: '#1f81DF'}}>Username</label>
                             <div className="form-group" style={{width: 500}}>
-                                <input type="text" className="form-control" placeholder="coco" style={{border: '1px solid color = #1f81DF', borderRadius: 30, height: 50, paddingLeft: 55}}></input>
+                                <input type="text" className="form-control" placeholder="ziyan" style={{border: '1px solid color = #1f81DF', borderRadius: 30, height: 50, paddingLeft: 55}}></input>
                             </div>
 
                             <label style={{color: '#1f81DF'}}>Email</label>
@@ -129,7 +129,7 @@ export default class Profile extends Component {
 
                             <label>Publisher</label>
                             <div className="form-group" style={{width: 500}}>
-                                <input type="text" className="form-control" placeholder="coco@gmail.com" style={{border: '1px solid color = #1f81DF', borderRadius: 30, height: 50, paddingLeft: 55}}></input>
+                                <input type="text" className="form-control" placeholder="ziyanfadilla1@gmail.com" style={{border: '1px solid color = #1f81DF', borderRadius: 30, height: 50, paddingLeft: 55}}></input>
                             </div>
 
                             <label style={{color: '#1f81DF'}}>Password</label>
