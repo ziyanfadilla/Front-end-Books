@@ -38,7 +38,7 @@ export default class Profile extends Component {
             </div>
 
             <div className="text-center">
-              <Link to="/">
+              <Link to="/home">
                 <Image
                   src="https://res.cloudinary.com/plugin007/image/upload/v1603734215/logoPLUGIN_qsovpm.png"
                   className="rounded"

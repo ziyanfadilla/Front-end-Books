@@ -66,7 +66,7 @@ export default class Categorilogin extends Component {
           </Navbar>
         </div>
 
-        <div className="container">
+        <div className="container-fluid">
           <h2 style={{ marginLeft: 5, marginTop: 3 }}>
             <b>Technologi</b>
           </h2>
@@ -86,7 +86,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div><br />
                         <div className="ml-5">The bushveld</div><br />
                         <div className="ml-5">Marius Oelsching</div><br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -104,7 +104,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div><br />
                         <div className="ml-5">The bushveld</div><br />
                         <div className="ml-5">Marius Oelsching</div><br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
                         
                       </div>
                     </div>
@@ -123,7 +123,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div> <br />
                         <div className="ml-5">The bushveld</div> <br />
                         <div className="ml-5">Marius Oelsching</div> <br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -141,7 +141,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div> <br />
                         <div className="ml-5">The bushveld</div> <br />
                         <div className="ml-5">Marius Oelsching</div> <br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -160,7 +160,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div><br />
                         <div className="ml-5">The bushveld</div><br />
                         <div className="ml-5">Marius Oelsching</div><br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png" style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -181,7 +181,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div><br />
                         <div className="ml-5">The bushveld</div><br />
                         <div className="ml-5">Marius Oelsching</div><br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png" style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -199,7 +199,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div><br />
                         <div className="ml-5">The bushveld</div><br />
                         <div className="ml-5">Marius Oelsching</div><br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png" style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -217,7 +217,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div><br />
                         <div className="ml-5">The bushveld</div><br />
                         <div className="ml-5">Marius Oelsching</div><br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png" style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -235,7 +235,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div> <br />
                         <div className="ml-5">The bushveld</div> <br />
                         <div className="ml-5">Marius Oelsching</div> <br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png" style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -253,7 +253,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div> <br />
                         <div className="ml-5">The bushveld</div> <br />
                         <div className="ml-5">Marius Oelsching</div> <br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -273,7 +273,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div> <br />
                         <div className="ml-5">The bushveld</div> <br />
                         <div className="ml-5">Marius Oelsching</div> <br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -291,7 +291,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div> <br />
                         <div className="ml-5">The bushveld</div> <br />
                         <div className="ml-5">Marius Oelsching</div> <br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -309,7 +309,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div> <br />
                         <div className="ml-5">The bushveld</div> <br />
                         <div className="ml-5">Marius Oelsching</div> <br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -327,7 +327,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div> <br />
                         <div className="ml-5">The bushveld</div> <br />
                         <div className="ml-5">Marius Oelsching</div> <br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png" style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>
@@ -345,7 +345,7 @@ export default class Categorilogin extends Component {
                         <div className="ml-5">Jak Of</div> <br />
                         <div className="ml-5">The bushveld</div> <br />
                         <div className="ml-5">Marius Oelsching</div> <br />
-                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+                        <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
                       </div>
                     </div>
                   </div>

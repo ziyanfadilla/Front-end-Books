@@ -55,7 +55,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -106,7 +106,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png" style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -123,7 +123,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div>
               <p className="ml-5">Marius Oelsching</p>
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -159,7 +159,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png" style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -176,7 +176,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -193,7 +193,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -210,7 +210,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png" style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -229,7 +229,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -246,7 +246,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -263,7 +263,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -280,7 +280,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
@@ -297,7 +297,7 @@ export default class Search extends Component {
               <div className="ml-5">Jak Of</div><br />
               <div className="ml-5">The bushveld</div><br />
               <p className="ml-5">Marius Oelsching</p><br />
-              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"/>
+              <Image src="https://res.cloudinary.com/dbppwwkeb/image/upload/v1616839142/chunin/Group_2_n9cqm7.png"  style={{ marginLeft: 35, }}/>
             </div>
           </div>
         </div>
